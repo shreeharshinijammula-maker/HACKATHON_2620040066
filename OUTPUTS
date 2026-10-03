@@ -1,0 +1,27 @@
+OUTPUTS 
+1A) DATA TYPES
+Number of family members: 3
+Water consumed in litres: 320.5
+House Number: 103
+Water Usage Status: A
+
+1B) IF ELSE CONDITION
+(OUTPUT TYPE 1)
+Enter water consumption in litres: 
+67
+User program finished
+Water Bill: Rs.100
+
+(OUTPUT TYPE 2)
+Enter water consumption in litres: 
+600
+Water Bill: Rs.200
+User program finished
+
+1C)METHODS
+Enter morning water usage (litres): 
+67
+Enter evening water usage (litres): 
+89
+User program finished
+Total Water Consumption: 156 litres
