@@ -27,18 +27,18 @@ class MovieTicket {
     }
 
     public void displayBill() {
-        System.out.printf("Movie Name: %s%n", movieName);
-        System.out.printf("Ticket Price: %.2f%n", ticketPrice);
-        System.out.printf("Number of Tickets: %d%n", numberOfTickets);
-        System.out.printf("Total Amount: %.2f%n", calculateTotal());
-        System.out.printf("Discount: %.2f%n", calculateDiscount());
-        System.out.printf("Final Amount: %.2f%n", calculateFinalAmount());
+        System.out.printf("Movie Name: ", movieName);
+        System.out.printf("Ticket Price: ", ticketPrice);
+        System.out.printf("Number of Tickets: ", numberOfTickets);
+        System.out.printf("Total Amount: ", calculateTotal());
+        System.out.printf("Discount: ", calculateDiscount());
+        System.out.printf("Final Amount: ", calculateFinalAmount());
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {
+         (Scanner scanner = new Scanner(System.in)) {
             String movieName = scanner.nextLine();
             double ticketPrice = scanner.nextDouble();
             int numberOfTickets = scanner.nextInt();
@@ -46,5 +46,6 @@ public class Main {
             MovieTicket ticket = new MovieTicket(movieName, ticketPrice, numberOfTickets);
             ticket.displayBill();
         }
+         scanner.close();
     }
 }
